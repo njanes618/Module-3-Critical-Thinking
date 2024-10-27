@@ -1,0 +1,13 @@
+>>> food_charge = float(input("Enter the charge for the food: "))
+Enter the charge for the food: 100.00
+>>> tip = food_charge * 0.18
+>>> tax = food_charge * 0.07
+>>> total_amount = food_charge + tip + tax
+>>> print(f"Food Charge: ${food_charge:.2f}")
+Food Charge: $100.00
+>>> print(f"Tip Amount (18%): ${tip:.2f}")
+Tip Amount (18%): $18.00
+>>> print(f"Sales Tax (7%): ${tax:.2f}")
+Sales Tax (7%): $7.00
+>>> print(f"Total Amount: ${total_amount:.2f}") 
+Total Amount: $125.00 
